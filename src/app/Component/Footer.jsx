@@ -24,16 +24,16 @@ const Footer = () => {
                     <div>
                         <h2 className="font-semibold text-2xl text-white mb-3">Important Links</h2>
                         <ul className="">
-                            <li className="text-base text-white"><a href="#">Dhaka Education Board</a></li>
-                            <li className="text-base text-white"><a href="#">Ministry of Education</a></li>
-                            <li className="text-base text-white"><a href="#">DPE</a></li>
-                            <li className="text-base text-white"><a href="#">NCTB</a></li>
-                            <li className="text-base text-white"><a href="#">MuktoPath</a></li>
+                            <li className="text-base text-white hover:text-black duration-300"><a href="#">Dhaka Education Board</a></li>
+                            <li className="text-base text-white hover:text-black duration-300"><a href="#">Ministry of Education</a></li>
+                            <li className="text-base text-white hover:text-black duration-300"><a href="#">DPE</a></li>
+                            <li className="text-base text-white hover:text-black duration-300"><a href="#">NCTB</a></li>
+                            <li className="text-base text-white hover:text-black duration-300"><a href="#">MuktoPath</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <footer className="footer  bg-blue-500 text-neutral-content items-center p-4">
+            <footer className="footer w-11/12 mx-auto bg-blue-500 text-neutral-content items-center p-4">
             <aside className="grid-flow-col items-center">
             
             <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
